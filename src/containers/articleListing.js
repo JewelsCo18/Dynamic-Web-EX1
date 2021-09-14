@@ -1,12 +1,13 @@
 import React from 'react'; 
 
-function articleListing(){
+function ArticleListing(){
     const articleListingsTitle = "Multiple Articles"; 
     return (
-        <div>
-            <h1>{articleListingsTitle}</h1>
+        <div className = "pageWrapper"> 
+            {/* Must use className instead of class because it is a protect javascript word */}
+            <h1 className = "HeaderOneStyle" >{articleListingsTitle}</h1>
         </div>
     )
 }
 
-export default articleListing
+export default ArticleListing

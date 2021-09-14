@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-function article(){
+function Article(){
     const articleTitle = "Single Article"; 
     return (
         <div>
@@ -9,4 +9,4 @@ function article(){
     )
 }
 
-export default article
+export default Article
