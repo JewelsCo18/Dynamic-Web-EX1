@@ -36,16 +36,68 @@
 .articleCardTitle {
   font-size: 36px; 
   font-weight: bold;
+  margin-bottom: 5px; 
+  margin-top: 10px; 
 }
 
 .articleCardDate { 
-
+  margin-left: 10px; 
+  margin-top: 5px; 
 }
 
 .articleCardBlurb {
-
+  margin-top: 30px;
+  margin-bottom: 30px; 
 }
 
 .articleCardLink { 
   font-weight: bold; 
+}
+
+.articleHeader {
+  background: #e5e5e5; 
+  padding: 40px 0; 
+}
+
+.articleHeaderText {
+  margin: 0 auto; 
+  max-width: 640px; 
+  padding: 0 25px; 
+}
+
+#singleArticleTitle { 
+  margin-bottom: 5px; 
+  margin-top: 25px; 
+}
+
+#singleArticleDate { 
+  margin-left: 0px; 
+}
+
+.articleHeaderBlurb {
+  font-size: 20px; 
+  line-height: 1.5; 
+}
+
+.articleText { 
+  margin: 0 auto; 
+  max-width: 640px;
+  padding: 0 25px; 
+}
+
+.articleText p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.articleText h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0; 
+  margin-bottom: 20px; 
+}
+
+.articleText h3 {
+  font-size: 24px;
+  font-weight: bold;
 }
