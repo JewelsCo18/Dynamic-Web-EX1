@@ -1,6 +1,9 @@
 import React from 'react'
 
 function ArticleCard({ article }) {
+    const newDate = new Date(article.publishedDate); //type Date
+    const dateString = newDate.toDateString(); 
+
     return (
         <div className="articleCardWrapper">
 
@@ -10,10 +13,11 @@ function ArticleCard({ article }) {
 
             <div className="articleCardText">
                 <h2 className="articleCardTitle"> {article.title}</h2>
-                <p className="articleCardDate"> {article.publishedDate} </p>
+                <p className="articleCardDate"> {dateString} </p>
                 <p className="articleCardBlurb"> {article.blurb} </p>
                 <p className="articleCardLink"> 
-                    <a href="#"> Read More </a>
+                    <a href={`/article/${article.id}`}> Read More </a> 
+                    {/* have to use the dash (upper left section of keyboard for href) */}
                 </p>
             </div> 
 
